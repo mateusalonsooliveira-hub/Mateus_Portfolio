@@ -340,7 +340,7 @@ body {
   transform: scale(0.98);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .menu {
     flex-direction: column;
@@ -368,7 +368,7 @@ body {
 
 }
 
-/* Footer / Rodapé */
+
 .rodape {
   background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
   color: white;
@@ -474,4 +474,5 @@ body {
   #footer-rights p {
     font-size: 0.85rem;
   }
+
 }
