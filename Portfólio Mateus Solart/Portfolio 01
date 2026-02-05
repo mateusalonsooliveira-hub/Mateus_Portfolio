@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus Solart Portfólio </title>
+</head>
+<body>
+    <nav class="navegacao">
+<ul class="menu">
+    <li>
+            <a href="#incicio">Início</a>
+    </li>
+        <li>
+            <a href="#sobre">Sobre</a>
+    </li>
+        <li>
+            <a href="projetos">Projetos</a>
+    </li>
+        <li>
+            <a href="contato">Contato</a>
+    </li>
+</ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="./img/Foto de perfil.jpg" alt="Foto de Mateus Solart">
+            <h1>Mateus Solart</h1>
+            <p>Designer e Desenenvolvedor front-end</p>
+        </div>
+
+    </main>
+    <section id="sobre" class="sobre">
+        <h2 class="sobre -titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequatur, iusto reprehenderit ratione beatae tempore suscipit. Consequatur, ex est possimus voluptas dolor adipisci, aliquam accusamus sint culpa, vero ducimus at?
+
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">PROJETOS</h2>
+        <div class="projetos-caixa">
+             
+        <div class="projetos-card">
+            <img src="./img/frase inspiradora_faveni.jpg" alt="Projeto1" class="projetos-imagem">
+            <h3 class="info-projetos">Post Com Frase Inspiradora</h3>
+            <p class="paragrafo-projeto">Post feito para as redes sociais da instituição de ensino Faveni Manaus  </p>
+        </div>
+
+                <div class="projetos-card">
+            <img src="./img/instagram_depoimentos.jpg" alt="Projeto1" class="projetos-imagem">
+            <h3 class="info-projetos">Story sobre depoimentos</h3>
+            <p class="paragrafo-projeto">Postagem feita em formato story para a rede social da instituição de ensino Faveni Manaus  </p>
+        </div>
+
+                <div class="projetos-card">
+            <img src="./img/instagram_seguidores.jpg" alt="Projeto1" class="projetos-imagem">
+            <h3 class="info-projetos">Post de comemoração de seguidores</h3>
+            <p class="paragrafo-projeto">Post feito para comemoração de 1.5k de seguidores da rede social em que estive fazendo um trabalho de social media</p>
+            
+        </div>
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Contatos</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form">
+            </div>
+            <div class="grupo-form">
+                <textarea class="text-form" placeholder="Digite sua mensagem"></textarea>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
